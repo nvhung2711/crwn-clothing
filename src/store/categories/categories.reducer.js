@@ -14,7 +14,6 @@ export const categoriesSlice = createSlice({
     reducers: {
         fetchCategoriesStart(state, action) {
             state.isLoading = true;
-            console.log('hi');
         },
         
         fetchCategoriesSuccess(state, action) {
